@@ -1,9 +1,8 @@
-// Exercise #1: Debugging
-// 
+// Exercise #1: Debugging 
 let accountBalance = 400;
 let depositAmountFromUser = "10";
 
-accountBalance = accountBalance + depositAmountFromUser;
+accountBalance = accountBalance + Number(depositAmountFromUser);
 
 let accountBalanceMessage = `Your account balance is ${accountBalance}`;
 
